@@ -1,0 +1,9 @@
+.git
+**/__pycache__
+*.pyc
+notebook/
+.ipynb_checkpoints
+locust_results/
+models/archive/
+data/potato_mlops.db
+*.zip

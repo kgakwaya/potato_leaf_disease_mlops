@@ -1,0 +1,6 @@
+-r requirements.txt
+locust==2.32.4
+matplotlib
+seaborn
+pandas
+jupyter

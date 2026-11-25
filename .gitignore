@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+data/uploads/*
+!data/uploads/.gitkeep
+data/*.db
+models/archive/
+models/best_checkpoint.h5
+locust_results/*.html
+*.zip

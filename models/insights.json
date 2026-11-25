@@ -1,0 +1,153 @@
+{
+  "class_names": [
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "Potato___healthy"
+  ],
+  "display_names": {
+    "Potato___Early_blight": "Early blight",
+    "Potato___Late_blight": "Late blight",
+    "Potato___healthy": "Healthy"
+  },
+  "counts": {
+    "train": {
+      "Potato___Early_blight": 700,
+      "Potato___Late_blight": 700,
+      "Potato___healthy": 106
+    },
+    "test": {
+      "Potato___Early_blight": 150,
+      "Potato___Late_blight": 150,
+      "Potato___healthy": 23
+    },
+    "uploads": {
+      "Potato___Early_blight": 0,
+      "Potato___Late_blight": 0,
+      "Potato___healthy": 0
+    }
+  },
+  "feature_means": {
+    "Potato___Early_blight": {
+      "mean_r": 136.51113891601562,
+      "mean_g": 141.89076232910156,
+      "mean_b": 116.51239776611328,
+      "green_ratio": 0.46724283854166665,
+      "brightness": 137.38914489746094,
+      "edge_density": 0.2969584147135417
+    },
+    "Potato___Late_blight": {
+      "mean_r": 118.40662384033203,
+      "mean_g": 120.5361557006836,
+      "mean_b": 105.95706939697266,
+      "green_ratio": 0.398046875,
+      "brightness": 118.23741149902344,
+      "edge_density": 0.24380940755208333
+    },
+    "Potato___healthy": {
+      "mean_r": 124.36687469482422,
+      "mean_g": 131.8986053466797,
+      "mean_b": 111.7750015258789,
+      "green_ratio": 0.5083750598835495,
+      "brightness": 127.35253143310547,
+      "edge_density": 0.286754680129717
+    }
+  },
+  "green_ratio_hist": {
+    "bins": [
+      0.0,
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      1.0
+    ],
+    "counts": {
+      "Potato___Early_blight": [
+        0,
+        2,
+        2,
+        4,
+        5,
+        4,
+        7,
+        4,
+        20,
+        32,
+        36,
+        21,
+        10,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Potato___Late_blight": [
+        2,
+        1,
+        1,
+        3,
+        7,
+        11,
+        17,
+        27,
+        30,
+        26,
+        18,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Potato___healthy": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        8,
+        32,
+        42,
+        18,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "samples_used": {
+    "Potato___Early_blight": 150,
+    "Potato___Late_blight": 150,
+    "Potato___healthy": 106
+  }
+}
