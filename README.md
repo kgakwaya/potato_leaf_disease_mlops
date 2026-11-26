@@ -347,6 +347,6 @@ may also take longer to answer its first requests after going idle.
 
 
 
-## 7. Tech stack
+## 8. Tech stack
 
 TensorFlow/Keras · scikit-learn · FastAPI · SQLite · Chart.js · Docker + nginx · Render · Locust · Google Colab
