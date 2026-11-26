@@ -345,19 +345,8 @@ This short recorded run completed without failed requests. It includes only 17 r
 it as a demonstration of the test setup, not as a large-scale capacity benchmark. The Render app
 may also take longer to answer its first requests after going idle.
 
-### Locust screenshots
 
-**Statistics**
 
-![Locust statistics for my Render flood test](locust_results/locust_stats.png)
-
-**Charts**
-
-![Locust response-time and request-rate charts](locust_results/locust_charts.png)
-
-The run's exported request data is available at
-[`locust_results/Locust_2026-11-26-13h33_locustfile.py_https___potato-leaf-disease-mlops.onrender.com_requests.csv`](locust_results/Locust_2026-11-26-13h33_locustfile.py_https___potato-leaf-disease-mlops.onrender.com_requests.csv).
-
-## 8. Tech stack
+## 7. Tech stack
 
 TensorFlow/Keras · scikit-learn · FastAPI · SQLite · Chart.js · Docker + nginx · Render · Locust · Google Colab
